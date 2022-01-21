@@ -6,6 +6,9 @@ function beepBoop(number) {
       if (index === 32) {
         roboger.push("Won't you be my neighbor?");
       }
+      else if (number < 32 && index === 21) {
+        roboger.push("Boop!");
+      }
       else if (index.toString().includes("1")) {
         roboger.push("Beep!");
       }
