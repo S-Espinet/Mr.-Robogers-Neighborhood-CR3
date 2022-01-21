@@ -34,6 +34,10 @@ _Test(4): "It should return "Beep!", "Boop!", and "Won't you be my neighbor?" in
 _Code: beepBoop("3")_
 _Expected Output: ["0", "Beep!", "Boop", "Won't you be my neighbor?"]_
 
+_Test(5): "It should return 'Won't you be my neighbor?' at position 32."_  
+_Code: beepBoop("32")[32]_
+_Expected Output: "Won't you be my neighbor?"_
+
 ## Description
 
 _This is a webpage that allows users to take a short quiz to get a reccomendation on which programming language they should learn, as well as illustrating my learning progression in web development._
