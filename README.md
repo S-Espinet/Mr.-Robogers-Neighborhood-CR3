@@ -25,9 +25,10 @@ _Code: beepBoop(0);_
 _Expected Output: 0_
 
 _Test(3): "It should return an array which consists of a number of elements equal to the inputted number + 1."_  
-_Code: let output = beepBoop("5");
-output.length;_ 
-_Expected Output:6
+_Code: let roboger = [];_  
+_roboger = beepBoop("5");_  
+_roboger.length;_  
+_Expected Output: 6_
 
 
 ## Description
