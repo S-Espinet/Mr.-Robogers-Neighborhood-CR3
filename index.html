@@ -3,9 +3,21 @@
 <head>
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Document</title>
+  <title>Mr. Roboger's Neighborhood</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1>Mr. Roboger's Neighborhood</h1>
+  <form id="numberForm">
+    <div class="form-group">
+      <p>Enter a number to see a list of numbers up to and including your number - with some interesting substitutions!</p>
+      <label>
+        <input id="numberInput" class="form-control" type="text">
+      </label>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+  </form>
+  <p>Results: <span id="results"></span></p>
+  </div>  
 </body>
 </html>
