@@ -1,11 +1,11 @@
 function beepBoop(number) {
   number = parseInt(number);
   if (isNaN(number) === false) {
-    if (number === 0) {
-      return 0;
-    } else {
-      return "Please enter a valid number.";
+    let roboger = [];
+    for(let index = 0; index <= number; index ++) {
+      roboger.push(index);
     }
+    return roboger;
   }else {
     return "Please enter a valid number.";
   }
