@@ -27,7 +27,7 @@ function beepBoop(number) {
     }
     return roboger;
   }else {
-    return "Please enter a valid number.";
+    return ["Please enter a valid number."];
   }
 }
 
