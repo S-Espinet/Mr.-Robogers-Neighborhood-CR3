@@ -9,6 +9,9 @@ function beepBoop(number) {
       else if (number < 32 && index === 21) {
         roboger.push("Boop!");
       }
+      else if (number < 21 && index === 13) {
+        roboger.push("Won't you be my neighbor?");
+      }
       else if (index.toString().includes("1")) {
         roboger.push("Beep!");
       }
@@ -27,3 +30,12 @@ function beepBoop(number) {
     return "Please enter a valid number.";
   }
 }
+
+$(document).ready(function(){
+  $("form#numberForm").submit(function(event){
+    event.preventDefault();
+    const number = $("#numberInput").val();
+    const results = beepBoop(number);
+    $("#results").html(results.join(", "));
+  })
+})
