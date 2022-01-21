@@ -42,6 +42,10 @@ _Test(6): "It should return 'Boop!' at position 21 if beepBoop is called with <=
 _Code: beepBoop("21")[21]_
 _Expected Output: "Boop!"_
 
+_Test(7): "It should return 'Won't you be my neighbor?' at position 13 if beepBoop is called with <= 20."_  
+_Code: beepBoop("13")[13]_
+_Expected Output: "Won't you be my neighbor?"_
+
 ## Description
 
 _This is a webpage that allows users to take a short quiz to get a reccomendation on which programming language they should learn, as well as illustrating my learning progression in web development._
