@@ -30,6 +30,9 @@ _roboger = beepBoop("5");_
 _roboger.length;_  
 _Expected Output: 6_
 
+_Test(4): "It should return "Beep!", "Boop!", and "Won't you be my neighbor?" in place of "1", "2", and "3"._  
+_Code: beepBoop("3")_
+_Expected Output: ["0", "Beep!", "Boop", "Won't you be my neighbor?"]_
 
 ## Description
 
