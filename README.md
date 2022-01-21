@@ -38,7 +38,7 @@ _Test(5): "It should return 'Won't you be my neighbor?' at position 32."_
 _Code: beepBoop("32")[32]_
 _Expected Output: "Won't you be my neighbor?"_
 
-_Test(6): "It should return 'Won't you be my neighbor?' at position 21 if beepBoop is called with <= 31."_  
+_Test(6): "It should return 'Boop!' at position 21 if beepBoop is called with <= 31."_  
 _Code: beepBoop("21")[21]_
 _Expected Output: "Boop!"_
 
