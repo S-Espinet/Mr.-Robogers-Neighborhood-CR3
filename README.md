@@ -17,7 +17,7 @@
 _Describe: beepBoop(0)_
 
 _Test(1): "It should return an error if a non-number is inputted."_  
-_Code: beepBoop(A);_  
+_Code: beepBoop("A");_  
 _Expected Output: Please enter a valid number._
 
 _Test(2): "It should return 0 when 0 is inputted."_  
