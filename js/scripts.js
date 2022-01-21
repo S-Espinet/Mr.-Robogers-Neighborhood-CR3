@@ -1,7 +1,12 @@
 function beepBoop(number) {
-  if (input === 0) {
-    return 0;
-  } else {
+  number = parseInt(number);
+  if (isNaN(number) === false) {
+    if (number === 0) {
+      return 0;
+    } else {
+      return "Please enter a valid number.";
+    }
+  }else {
     return "Please enter a valid number.";
   }
 }
