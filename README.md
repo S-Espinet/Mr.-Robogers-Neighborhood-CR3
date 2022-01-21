@@ -12,6 +12,15 @@
 * _JavaScript_
 * _jQuery_
 
+## Tests
+
+_Describe: beepBoop(0)_
+
+_Test: "It should return 0 when 0 is inputted."_  
+_Code: beepBoop(0);_  
+_Expected Output: 0_
+
+
 ## Description
 
 _This is a webpage that allows users to take a short quiz to get a reccomendation on which programming language they should learn, as well as illustrating my learning progression in web development._
