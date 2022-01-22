@@ -1,14 +1,13 @@
-# _Portfolio\_Landing\_Page_
+# _Mr.\_Roboger's\_Neighborhood_
 
 #### By _**S-Espinet**_
 
-#### _Simple Javascript webpage to help users choose a programming language to learn._
+#### _Simple Javascript webpage where users can enter a number and get a list up to and including their number, with substitutions._
 
 ## Technologies Used
 
+* _Markdown_
 * _HTML_
-* _CSS_
-* _Bootstrap_
 * _JavaScript_
 * _jQuery_
 
@@ -48,20 +47,22 @@ _Expected Output: "Won't you be my neighbor?"_
 
 ## Description
 
-_This is a webpage that allows users to take a short quiz to get a reccomendation on which programming language they should learn, as well as illustrating my learning progression in web development._
+_This is a webpage that allows users to enter a number, after which they get a list back. The list includes numbers up to and including the inputted number with substitutions including "Beep!", "Boop!", and "Won't you be my neightbor?"._
 
 ## GitHub Pages Link
 
-* _ _
+* _https://s-espinet.github.io/Mr.-Robogers-Neighborhood-CR3/_
 
 ## Setup/Installation Requirements
 
 * _navigate to github.com/S-Espinet in browser_
-* _select repository (Portfolio-Profile-Page)_
+* _select repository (Mr.-Robogers-Neighborhood-CR3)_
 * _click `Code` button and select desired security protocol_
 * _run git clone in terminal into desired directory_
 * _navigate to top level of directory in terminal -or- in your GUI_
 * _type "open index.html" into your terminal, -or- double-click the index.html file in your GUI_
+* _enter number into text box and click the submit button_
+* _delete first number or refresh page to run again_
 
 ## Known Bugs
 
